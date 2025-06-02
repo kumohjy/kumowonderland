@@ -13,22 +13,18 @@
       color: #333;
       text-align: center;
     }
-
     header {
       padding: 60px 20px 20px;
     }
-
     h1 {
       font-size: 3rem;
       margin-bottom: 0.5rem;
     }
-
     p {
       font-size: 1.2rem;
       max-width: 700px;
       margin: 0 auto 2rem;
     }
-
     .buttons {
       display: flex;
       gap: 20px;
@@ -36,7 +32,6 @@
       justify-content: center;
       margin-bottom: 40px;
     }
-
     .button {
       background-color: #ffffff;
       border: 2px solid #7fbcd2;
@@ -47,59 +42,9 @@
       text-decoration: none;
       transition: all 0.3s ease;
     }
-
     .button:hover {
       background-color: #c3e4ef;
     }
-
-    section {
-      padding: 40px 20px;
-    }
-
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    .gallery img {
-      width: 280px;
-      height: auto;
-      border-radius: 12px;
-      object-fit: cover;
-    }
-
-    form {
-      max-width: 500px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    input, textarea {
-      padding: 10px;
-      font-size: 1rem;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-    }
-
-    button[type="submit"] {
-      background-color: #00789c;
-      color: white;
-      border: none;
-      padding: 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    button[type="submit"]:hover {
-      background-color: #005f79;
-    }
-
     footer {
       font-size: 0.9rem;
       margin: 40px 0;
@@ -112,35 +57,10 @@
     <h1>Kumo Wonderland</h1>
     <p>A minimalist photography space for sharing moments, capturing light, and discovering hidden places.</p>
     <div class="buttons">
-      <a href="#portfolio" class="button">View Portfolio</a>
-      <a href="#weekly" class="button">Weekly Submissions</a>
+      <a href="portfolio.html" class="button">View Portfolio</a>
+      <a href="weekly.html" class="button">Weekly Submissions</a>
     </div>
   </header>
-
-  <section id="portfolio">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/280x180?text=Photo+1" alt="Photo 1">
-      <img src="https://via.placeholder.com/280x180?text=Photo+2" alt="Photo 2">
-      <img src="https://via.placeholder.com/280x180?text=Photo+3" alt="Photo 3">
-    </div>
-  </section>
-
-  <section id="weekly">
-    <h2>This Week's Theme</h2>
-    <p>Theme: "Reflections in Unexpected Places"<br>Share your most creative interpretation of reflections, whether in water, windows, or other surfaces.</p>
-  </section>
-
-  <section id="submit">
-    <h2>Submit Your Work</h2>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="4" placeholder="Your Message or Photo Link" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-
   <footer>
     &copy; 2025 Kumo Wonderland. All rights reserved.
   </footer>
