@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kumo Wonderland</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #d6ecf3;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #333;
+      text-align: center;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+      position: relative;
+    }
+
+    .logo {
+      width: 140px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.1em;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    .button {
+      background-color: #ffffff;
+      border: 2px solid #7fbcd2;
+      color: #00789c;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #c3e4ef;
+    }
+
+    .line-art {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .line-art svg {
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+    }
+
+    .divider {
+      width: 80%;
+      height: 2px;
+      margin: 30px auto;
+      background-image: linear-gradient(to right, transparent, #00789c, transparent);
+    }
+
+    .mountain-line {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      margin: 40px 0;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="line-art">
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#ffffff" fill-opacity="1" d="M0,64L60,69.3C120,75,240,85,360,106.7C480,128,600,160,720,154.7C840,149,960,107,1080,96C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <header>
+    <img src="logo.png" alt="Kumo Wonderland Logo" class="logo" />
+    <h1>Kumo Wonderland</h1>
+    <p>A minimalist photography space for sharing moments, capturing light, and discovering hidden places.</p>
+    <div class="divider"></div>
+    <img src="gallery1.jpg" alt="Header Visual" class="mountain-line" />
+    <div class="buttons">
+      <a href="portfolio.html" class="button">View Portfolio</a>
+      <a href="weekly.html" class="button">Weekly Submissions</a>
+    </div>
+  </header>
+
+  <footer>
+    &copy; 2025 Kumo Wonderland. All rights reserved.
+  </footer>
+</body>
+</html>
